@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Homepage - Chatroom Demo</title>
+        <link rel="stylesheet" href="/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js" integrity="sha256-OgiHfllOBEOiWQ2OcBsDncRG2k7QBW9Rs1dB7MH2N2s=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Hello! -->
+        <div class="site-chat">
+            <div class="chat-window">
+                <div id="output"></div>
+                <div id="feedback"></div>
+                    <!-- this is where the chat will show up -->
+                    <input id="handle" type="text" placeholder="Handle">
+                    <input id="message" type="text" placeholder="Messages">
+                    <button id="send">SEND MESSAGE</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="/chat_code.js">
+        </script>
+    </body>
+</html>
